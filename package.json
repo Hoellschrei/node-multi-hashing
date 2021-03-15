@@ -1,10 +1,6 @@
 {
-    "name": "multi-hashing",
-    "version": "1.0.3",
-    "main": "multihashing",
-    "author": {
-        "name": "Matthew Little"
-    },
+    "name": "multi-hashing666",
+    "version": "6.6.6",
     "repository": {
         "type": "git",
         "url": "https://github.com/Hoellschrei/node-multi-hashing.git"
