@@ -1488,7 +1488,6 @@ NAN_MODULE_INIT(init) {
     Nan::Set(target, Nan::New("yescryptr24").ToLocalChecked(), Nan::GetFunction(Nan::New<FunctionTemplate>(yescryptr24)).ToLocalChecked());
     Nan::Set(target, Nan::New("yescryptr32").ToLocalChecked(), Nan::GetFunction(Nan::New<FunctionTemplate>(yescryptr32)).ToLocalChecked());
     Nan::Set(target, Nan::New("xevan").ToLocalChecked(), Nan::GetFunction(Nan::New<FunctionTemplate>(xevan)).ToLocalChecked());
-    Nan::Set(target, Nan::New("timetravel10").ToLocalChecked(), Nan::GetFunction(Nan::New<FunctionTemplate>(timetravel10)).ToLocalChecked());
 }
 
 NODE_MODULE(multihashing, init)
