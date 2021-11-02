@@ -589,7 +589,7 @@ NAN_METHOD(cryptonight) {
     if (info.Length() >= 2) {
         if(!info[1]->IsBoolean())
             return THROW_ERROR_EXCEPTION("Argument 2 should be a boolean");
-        fast = info[1]->ToBoolean()->BooleanValue();
+        //fast = info[1]->ToBoolean()->BooleanValue();
     }
 
     Local<Object> target = Nan::To<Object>(info[0]).ToLocalChecked();
